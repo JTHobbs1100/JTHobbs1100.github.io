@@ -9,27 +9,27 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Jacob Hobbs"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Jacob Hobbs"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://JTHobbs1100.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "JTHobbs1100/JTHobbs1100.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  avatar           : "jacobhobbsheadshot.jpeg"
+  name             : "Jacob Hobbs"
+  pronouns         : "he/him"  
+  bio              : "Hello! I'm a fourth-year at UVA studying Computer Science and Women, Gender, and Sexuality!"
+  location         : "Charlottesville, VA"
+  employer         : "University of Virginia"
+  uri              : "JTHobbs1100.github.io"
+  email            : "jacobhobbs1100@gmail.com" 
 
   # Academic websites
   academia         : # URL

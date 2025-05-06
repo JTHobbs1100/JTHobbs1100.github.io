@@ -1,0 +1,19 @@
+current directory: /Users/jacobhobbs/Documents/GitHub/JTHobbs1100.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/jacobhobbs/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/jacobhobbs/Documents/GitHub/JTHobbs1100.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250506-86092-xmginu sitelibdir\=./.gem.20250506-86092-xmginu clean
+
+current directory: /Users/jacobhobbs/Documents/GitHub/JTHobbs1100.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250506-86092-xmginu sitelibdir\=./.gem.20250506-86092-xmginu
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/jacobhobbs/Documents/GitHub/JTHobbs1100.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250506-86092-xmginu sitelibdir\=./.gem.20250506-86092-xmginu install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250506-86092-xmginu/racc
+
+current directory: /Users/jacobhobbs/Documents/GitHub/JTHobbs1100.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250506-86092-xmginu sitelibdir\=./.gem.20250506-86092-xmginu clean
