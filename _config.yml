@@ -23,13 +23,14 @@ repository               : "JTHobbs1100/JTHobbs1100.github.io"
 author:
   # Biographic information
   avatar           : "jacobhobbsheadshot.jpeg"
-  name             : "Jacob Hobbs 🏳️‍🌈"
+  name             : "Jacob Hobbs 🏳️‍🌈 💻"
   pronouns         : "he/him"  
   bio              : "Hello! I'm a queer software developer and NLP researcher currently working at CoStar Group!"
   location         : "Washington, DC"
-  employer         : "University of Virginia (alum)"
-  uri              : #"JTHobbs1100.github.io"
+  employer         : "CoStar Group"
+  # uri              : "JTHobbs1100.github.io"
   email            : "jacobhobbs1100@gmail.com" 
+  cv               : "/files/JacobHobbsCV.pdf"
 
   # Academic websites
   academia         : # URL
