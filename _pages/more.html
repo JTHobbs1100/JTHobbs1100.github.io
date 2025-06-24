@@ -1,0 +1,19 @@
+---
+layout: archive
+title: "More about me!"
+permalink: /more/
+author_profile: true
+---
+
+{% include base_path %}
+
+<h2>In The News 🗞️</h2>
+Articles about my work in NLP and in supporting college radio!
+<br>
+<br>
+{% for post in site.more reversed %}
+  {% unless forloop.first %}
+    <hr>
+  {% endunless %}
+  {% include archive-single.html %}
+{% endfor %}
