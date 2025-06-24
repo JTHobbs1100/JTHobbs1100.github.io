@@ -52,6 +52,10 @@ layout: default
           {{ page.excerpt }}
         {% endif %}
 
+        {% if page.paperurl %}
+          <a href="{{ post.paperurl }}" target="_blank" class="btn btn--success" role="button" style="background-color: #597c47; color: white;">Paper</a>
+        {% endif %}
+
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
