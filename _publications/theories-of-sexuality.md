@@ -7,7 +7,7 @@ date: 2025-04-18
 # venue: 'The Spectra: The Virginia Engineering and Science Research Journal'
 authors: '<b>Jacob Hobbs</b>'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: '/files/CS_DMP.pdf'
+paperurl: 'https://arxiv.org/abs/2506.22481'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
