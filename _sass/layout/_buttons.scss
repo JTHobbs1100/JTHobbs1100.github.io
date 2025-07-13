@@ -151,4 +151,29 @@
   &--small {
     font-size: $type-size-7;
   }
+
+  /* CUSTOM BUTTONS (ie by jacob) */
+
+  &--paper {
+    background-color: #597c47;
+    text-decoration: none !important;
+    border:2px solid #597c47 !important;
+
+
+    &:hover {
+      background-color: mix(#000, #597c47, 20%);
+    }
+  }
+
+  &--poster {
+    background-color: white;
+    text-decoration: none !important;
+    color: #597c47 !important;
+    border:2px solid #597c47 !important;
+
+    &:hover {
+      background-color: #597c47;
+      color: white !important;
+    }
+  }
 }

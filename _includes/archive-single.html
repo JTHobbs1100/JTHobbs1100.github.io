@@ -67,7 +67,10 @@
             <br>{{ post.excerpt }}
           {% endif %}
           {% if post.paperurl %}
-          <br><a href="{{ post.paperurl }}" target="_blank" class="btn btn--success" role="button" style="background-color: #597c47; color: white;">Paper</a>
+          <br> <a href="{{ post.paperurl }}" target="_blank" class="btn btn--paper" role="button">Paper</a>
+          {% endif %}
+          {% if post.posterurl %}
+            <a href="{{ post.posterurl }}" target="_blank" class="btn btn--poster" role="button">Poster</a>
           {% endif %}
            {% if post.papersummary %}
           <a href="{{ post.papersummary }}" target="_blank" class="btn btn--success" role="button">Summary</a>
