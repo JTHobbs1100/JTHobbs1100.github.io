@@ -2,7 +2,7 @@
 title: "Theories of \"Sexuality\" in Natural Language Processing Bias Research"
 collection: publications
 permalink: /publication/theories-of-sexuality
-excerpt: 'Submitted to <i>The Spectra: The Virginia Engineering and Science Research Journal</i>, This paper documents how sexuality is defined and operationalized via a survey and analysis of 55 articles that quantify sexuality-based NLP bias.'
+excerpt: 'Submitted to <i>The Spectra: The Virginia Engineering and Science Research Journal</i>, presented at the Queer in AI workshop at NeurIPS (2025). This paper documents how sexuality is defined and operationalized via a survey and analysis of 55 articles that quantify sexuality-based NLP bias.'
 date: 2025-04-18
 # venue: 'The Spectra: The Virginia Engineering and Science Research Journal'
 authors: '<b>Jacob Hobbs</b>'
