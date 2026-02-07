@@ -34,11 +34,11 @@ author:
 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "http://arxiv.org/a/hobbs_j_2"
   googlescholar    : "https://scholar.google.com/citations?user=p9c7tXYAAAAJ&hl=en&oi=sra"
   impactstory      : # URL
-  orcid            : # "http://orcid.org/yourorcidurl"
-  semantic         : # URL
+  # orcid            : "https://orcid.org/0009-0001-5008-7859"
+  semantic         : "https://www.semanticscholar.org/author/Jacob-Hobbs/2371069735"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
@@ -52,7 +52,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : #"bsky.app" # Replace this with you Bluesky username
+  bluesky          : "https://bsky.app/profile/jthobbs1100.bsky.social"
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -227,7 +227,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  more:
+  press:
     output: true
     permalink: /:collection/:path/
 
@@ -287,10 +287,10 @@ defaults:
       layout: talk
       author_profile: true
       share: false
-  # _more
+  # _press
   - scope:
       path: ""
-      type: more
+      type: press
     values:
       layout: single
       author_profile: true

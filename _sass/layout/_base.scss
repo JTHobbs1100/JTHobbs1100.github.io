@@ -97,10 +97,13 @@ abbr[data-original-title] {
 
 blockquote {
   margin: 2em 1em 2em 0;
+  padding-top: 0.5em;
   padding-left: 1em;
   padding-right: 1em;
+  padding-bottom: 0.5em;
   font-style: italic;
-  border-left: 0.25em solid var(--global-border-color);
+  border-left: 0.25em solid #597c47;
+  background-color: #597c4714;
 
   cite {
     font-style: italic;
@@ -109,6 +112,12 @@ blockquote {
       content: "\2014";
       padding-right: 5px;
     }
+  }
+
+  /* Remove extra spacing caused by the inner paragraph's bottom margin so
+     `padding-bottom` on the blockquote equals the visible spacing. */
+  p:last-child {
+    margin-bottom: 0;
   }
 }
 

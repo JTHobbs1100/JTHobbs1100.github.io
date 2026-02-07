@@ -39,25 +39,25 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" target="_blank" style="text-decoration: none; color: inherit; font-size: 22px;">
+        <a  rel="permalink" target="_blank" style="text-decoration: none; color: inherit;">
           <b>{{title}}</b>
         </a>
         <br>
           {{ post.type }}, <i>{{ post.venue }}</i>
           
-        {% elsif post.collection == 'more' %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" target="_blank" style="text-decoration: none; color: inherit; font-size: 20px;">
+        {% elsif post.collection == 'press' %}
+        <a href="{{ post.pressurl }}" rel="permalink" target="_blank" style="text-decoration: underline; color: #597c47;">
           <b>{{title}}</b>
         </a>
-        <br>
-        {{post.venue}}
-        <br>
-        {{post.excerpt}}
+        <!-- <br> -->
+         &nbsp;
+          {{post.venue}}
+        <!-- <br>
+          {{post.excerpt}} -->
         
 
         {% elsif post.collection == 'publications' %}
-          <br>
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink" target="_blank" style="text-decoration: none; color: inherit; font-size: 22px;">
+          <a rel="permalink" target="_blank" style="text-decoration: none; color: inherit;">
             <b>{{title}}</b>
           </a>
           <br>{{ post.authors }}
@@ -66,11 +66,12 @@
           {% elsif post.excerpt %}
             <br>{{ post.excerpt }}
           {% endif %}
+          <div style="margin-bottom: 0.35em;"></div>
           {% if post.paperurl %}
-          <br> <a href="{{ post.paperurl }}" target="_blank" class="btn btn--paper" role="button">Paper</a>
+          <a href="{{ post.paperurl }}" target="_blank" class="btn btn--paper" role="button" style="padding: 0.2em 0.4em;">Paper</a>
           {% endif %}
           {% if post.posterurl %}
-            <a href="{{ post.posterurl }}" target="_blank" class="btn btn--poster" role="button">Poster</a>
+            <a href="{{ post.posterurl }}" target="_blank" class="btn btn--poster" role="button" style="padding: 0.2em 0.4em;">Poster</a>
           {% endif %}
            {% if post.papersummary %}
           <a href="{{ post.papersummary }}" target="_blank" class="btn btn--success" role="button">Summary</a>
