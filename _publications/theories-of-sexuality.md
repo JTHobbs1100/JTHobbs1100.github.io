@@ -5,7 +5,7 @@ collection: publications
 excerpt: 'Submitted to <i>The Spectra: The Virginia Engineering and Science Research Journal</i>, presented at the Queer in AI workshop at NeurIPS (2025).'
 date: 2025-04-18
 # venue: 'The Spectra: The Virginia Engineering and Science Research Journal'
-authors: '<b>Jacob Hobbs</b>'
+authors: '<u><b>Jacob Hobbs</b></u>'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/abs/2506.22481'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
