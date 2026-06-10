@@ -2,12 +2,12 @@
 title: "Theories of \"Sexuality\" in Natural Language Processing Bias Research"
 collection: publications
 # permalink: /publication/theories-of-sexuality
-excerpt: 'Submitted to <i>The Spectra: The Virginia Engineering and Science Research Journal</i>, presented at the Queer in AI workshop at NeurIPS (2025).'
+excerpt: 'Undergraduate Thesis. Presented at the <a href="https://www.queerinai.com/neurips-2025"> Queer in AI workshop at NeurIPS (2025)</a>.'
 date: 2025-04-18
 # venue: 'The Spectra: The Virginia Engineering and Science Research Journal'
 authors: '<u><b>Jacob Hobbs</b></u>'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://arxiv.org/abs/2506.22481'
+paperurl: 'https://doi.org/10.18130/f4gz-t155'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 posterurl: '/files/CS_DMP_poster.pdf'
