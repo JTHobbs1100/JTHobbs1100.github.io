@@ -25,20 +25,20 @@ author:
   avatar           : "jacobhobbsheadshot2.jpeg"
   name             : "Jacob Hobbs 🏳️‍🌈 💻"
   pronouns         : "he/him"  
-  bio              : "Hello! I'm a queer software developer and NLP researcher currently working at CoStar Group!"
+  bio              : "Hello! I'm a visiting researcher at Carnegie Mellon University investigating queer interactions with LLMs together with Queer in AI. <br><br>Outside of research, I work full-time as a software engineer at CoStar Group."
   location         : "Washington, DC"
-  employer         : "CoStar Group"
+  employer         : "CoStar Group & Carnegie Mellon"
   # uri              : "JTHobbs1100.github.io"
   email            : "jacobhobbs1100@gmail.com" 
   cv               : "/files/JacobHobbsCV.pdf"
 
   # Academic websites
   academia         : # URL
-  arxiv            : "http://arxiv.org/a/hobbs_j_2"
+  # arxiv            : "http://arxiv.org/a/hobbs_j_2"
   googlescholar    : "https://scholar.google.com/citations?user=p9c7tXYAAAAJ&hl=en&oi=sra"
   impactstory      : # URL
-  # orcid            : "https://orcid.org/0009-0001-5008-7859"
-  semantic         : "https://www.semanticscholar.org/author/Jacob-Hobbs/2371069735"
+  orcid            : "https://orcid.org/0009-0001-5008-7859"
+  # semantic         : "https://www.semanticscholar.org/author/Jacob-Hobbs/2371069735"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
