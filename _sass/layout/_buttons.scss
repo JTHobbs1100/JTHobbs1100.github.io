@@ -176,4 +176,16 @@
       color: white !important;
     }
   }
+
+  &--arxiv {
+    background-color: white;
+    text-decoration: none !important;
+    color: #a52c25 !important;
+    border:2px solid #a52c25 !important;
+
+    &:hover {
+      background-color: #a52c25;
+      color: white !important;
+    }
+  }
 }

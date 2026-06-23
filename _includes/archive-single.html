@@ -73,6 +73,9 @@
           {% if post.posterurl %}
             <a href="{{ post.posterurl }}" target="_blank" class="btn btn--poster" role="button" style="padding: 0.2em 0.4em;">Poster</a>
           {% endif %}
+          {% if post.arxivurl %}
+          <a href="{{ post.arxivurl }}" target="_blank" class="btn btn--arxiv" role="button" style="padding: 0.2em 0.4em;">arXiv</a>
+          {% endif %}
            {% if post.papersummary %}
           <a href="{{ post.papersummary }}" target="_blank" class="btn btn--success" role="button">Summary</a>
           {% endif %}
